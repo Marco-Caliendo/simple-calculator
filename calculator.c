@@ -18,7 +18,7 @@ int mult(int a, int b){
 int div(int a, int b){
     printf("You chose division");
     if (b == 0){
-        printf("Cannot divide by zero");
+        printf("\nCannot divide by zero");
         return 0;
     } 
     else 
